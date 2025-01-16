@@ -49,7 +49,7 @@ def main():
         X_train, X_test, y_train, y_test = train_test_split(features_df, labels, test_size=0.2, random_state=42)
 
         # Perform grid search without cross-validation to find the best alpha
-        alphas =  [0.1, 1, 10, 100, 1000, 10000, 11000, 12000]
+        alphas =  [0.1, 1, 10, 100, 1000, 10000, 11000, 15000]
         best_alpha = None
         best_r2 = -np.inf
 
