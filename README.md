@@ -2,6 +2,8 @@
 
 This repository contains scripts to predict Reads Per Million (RPM) microRNA expression from Transcripts Per Million (TPM) unstranded gene expression data. The data used for training was derived from all matching microRNA and gene expression files from TCGA, including both cancer and normal samples. Refer to our preprint for more information: [DOI: 10.1101/2025.01.09.632215](https://doi.org/10.1101/2025.01.09.632215).
 
+![Graphical Abstract](graph_abstract.png)
+
 ## Requirements
 - Python 3
 
