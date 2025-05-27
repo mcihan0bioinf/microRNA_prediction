@@ -17,15 +17,13 @@ The following Python libraries are required:
 - `argparse==1.4.0`
 - `requests==2.31.0`
 
-> Note: Modules like `csv`, `json`, `os`, and `re` are part of Python’s standard library and do **not** need to be installed separately.
-
-### 📦 Installation
-
 To install all required libraries with version control, run:
 
 ```bash
 pip install -r requirements.txt
+```
 
+---
 
 ## Overview
 
