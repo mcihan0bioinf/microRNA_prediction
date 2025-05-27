@@ -6,25 +6,26 @@ This repository contains scripts to predict Reads Per Million (RPM) microRNA exp
 
 
 ## Requirements
-- Python 3
+
+- Python 3.9 or later (Python 3.10 recommended)
 
 The following Python libraries are required:
-- `pandas`
-- `numpy`
-- `sklearn`
-- `argparse`
-- `requests`
-- `csv`
-- `json`
-- `re`
-- `os`
 
-Install them with:
+- `pandas==1.5.3`
+- `numpy==1.24.4`
+- `scikit-learn==1.2.2`
+- `argparse==1.4.0`
+- `requests==2.31.0`
+
+> Note: Modules like `csv`, `json`, `os`, and `re` are part of Python’s standard library and do **not** need to be installed separately.
+
+### 📦 Installation
+
+To install all required libraries with version control, run:
+
 ```bash
-pip install pandas numpy scikit-learn argparse requests
-```
+pip install -r requirements.txt
 
----
 
 ## Overview
 
