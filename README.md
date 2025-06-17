@@ -1,6 +1,6 @@
 # Predict microRNA Expression from Gene Expression Data
 
-This repository contains scripts to predict Reads Per Million (RPM) microRNA expression from Transcripts Per Million (TPM) unstranded gene expression data. The data used for training was derived from all matching microRNA and gene expression files from TCGA, including both cancer and normal samples. Refer to our preprint for more information: [DOI: 10.1101/2025.01.09.632215](https://doi.org/10.1101/2025.01.09.632215).
+This repository contains scripts to predict Reads Per Million (RPM) microRNA expression from Transcripts Per Million (TPM) unstranded gene expression data. The data used for training was derived from all matching microRNA and gene expression files from TCGA, including both cancer and normal samples. Refer to our preprint for more information: [DOI: 10.3390/ijms26125757](https://doi.org/10.3390/ijms26125757).
 
 ![Graphical Abstract](graph_abstract.png)
 
@@ -132,6 +132,7 @@ To predict with custom files, you must adapt the paths in the `predict_microRNA_
 
 ---
 
-## References
-- Preprint: [DOI: 10.1101/2025.01.09.632215](https://doi.org/10.1101/2025.01.09.632215)
+## Cite
+If you use this code or data in your research, please cite our manuscript:
+[DOI: 10.3390/ijms26125757](https://doi.org/10.3390/ijms26125757)
 
